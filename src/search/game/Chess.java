@@ -92,7 +92,7 @@ public class Chess extends GameSearch {
         if (!player) ret = -ret;
         return ret;
     }
-
+ 
     public void printPosition(Position p) {
         System.out.println("Board position:");
         ChessPosition pos = (ChessPosition)p;
